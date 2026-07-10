@@ -735,16 +735,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // MENU HAMBÚRGUER RESPONSIVO 
-    const hamburger = document.querySelector(".cabecalho__hamburger");
-    const menuLista = document.querySelector(".cabecalho__lista");
-
-    if (hamburger && menuLista) {
-        hamburger.addEventListener("click", () => {
-            menuLista.classList.toggle("active");
-        });
-    }
-
     // CREDENCIAIS PADRÕES DO SISTEMA 
     const USUARIO_PADRAO = "admin";
     const SENHA_PADRAO = "orbitsafe2026";
